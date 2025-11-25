@@ -1,0 +1,140 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@upstash/vector':
+        specifier: ^1.2.2
+        version: 1.2.2
+      tree-sitter:
+        specifier: ^0.25.0
+        version: 0.25.0
+      tree-sitter-javascript:
+        specifier: ^0.25.0
+        version: 0.25.0(tree-sitter@0.25.0)
+      tree-sitter-json:
+        specifier: ^0.24.8
+        version: 0.24.8(tree-sitter@0.25.0)
+      tree-sitter-typescript:
+        specifier: ^0.23.2
+        version: 0.23.2(tree-sitter@0.25.0)
+      uuid:
+        specifier: ^13.0.0
+        version: 13.0.0
+    devDependencies:
+      '@types/node':
+        specifier: ^24.10.1
+        version: 24.10.1
+
+packages:
+
+  '@types/node@24.10.1':
+    resolution: {integrity: sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==}
+
+  '@upstash/vector@1.2.2':
+    resolution: {integrity: sha512-ptQ9xnxtKqmpNK52PCcHCszlPOLxIBfjsv7ty8RoF95pkjctS9rSjTQ3Pl9bx5VFbpDj+0dMXw88WLt6swDkgQ==}
+
+  node-addon-api@8.5.0:
+    resolution: {integrity: sha512-/bRZty2mXUIFY/xU5HLvveNHlswNJej+RnxBjOMkidWfwZzgTbPG1E3K5TOxRLOR+5hX7bSofy8yf1hZevMS8A==}
+    engines: {node: ^18 || ^20 || >= 21}
+
+  node-gyp-build@4.8.4:
+    resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
+    hasBin: true
+
+  tree-sitter-javascript@0.23.1:
+    resolution: {integrity: sha512-/bnhbrTD9frUYHQTiYnPcxyHORIw157ERBa6dqzaKxvR/x3PC4Yzd+D1pZIMS6zNg2v3a8BZ0oK7jHqsQo9fWA==}
+    peerDependencies:
+      tree-sitter: ^0.21.1
+    peerDependenciesMeta:
+      tree-sitter:
+        optional: true
+
+  tree-sitter-javascript@0.25.0:
+    resolution: {integrity: sha512-1fCbmzAskZkxcZzN41sFZ2br2iqTYP3tKls1b/HKGNPQUVOpsUxpmGxdN/wMqAk3jYZnYBR1dd/y/0avMeU7dw==}
+    peerDependencies:
+      tree-sitter: ^0.25.0
+    peerDependenciesMeta:
+      tree-sitter:
+        optional: true
+
+  tree-sitter-json@0.24.8:
+    resolution: {integrity: sha512-Tc9ZZYwHyWZ3Tt1VEw7Pa2scu1YO7/d2BCBbKTx5hXwig3UfdQjsOPkPyLpDJOn/m1UBEWYAtSdGAwCSyagBqQ==}
+    peerDependencies:
+      tree-sitter: ^0.21.1
+    peerDependenciesMeta:
+      tree-sitter:
+        optional: true
+
+  tree-sitter-typescript@0.23.2:
+    resolution: {integrity: sha512-e04JUUKxTT53/x3Uq1zIL45DoYKVfHH4CZqwgZhPg5qYROl5nQjV+85ruFzFGZxu+QeFVbRTPDRnqL9UbU4VeA==}
+    peerDependencies:
+      tree-sitter: ^0.21.0
+    peerDependenciesMeta:
+      tree-sitter:
+        optional: true
+
+  tree-sitter@0.25.0:
+    resolution: {integrity: sha512-PGZZzFW63eElZJDe/b/R/LbsjDDYJa5UEjLZJB59RQsMX+fo0j54fqBPn1MGKav/QNa0JR0zBiVaikYDWCj5KQ==}
+
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
+    hasBin: true
+
+snapshots:
+
+  '@types/node@24.10.1':
+    dependencies:
+      undici-types: 7.16.0
+
+  '@upstash/vector@1.2.2': {}
+
+  node-addon-api@8.5.0: {}
+
+  node-gyp-build@4.8.4: {}
+
+  tree-sitter-javascript@0.23.1(tree-sitter@0.25.0):
+    dependencies:
+      node-addon-api: 8.5.0
+      node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.25.0
+
+  tree-sitter-javascript@0.25.0(tree-sitter@0.25.0):
+    dependencies:
+      node-addon-api: 8.5.0
+      node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.25.0
+
+  tree-sitter-json@0.24.8(tree-sitter@0.25.0):
+    dependencies:
+      node-addon-api: 8.5.0
+      node-gyp-build: 4.8.4
+    optionalDependencies:
+      tree-sitter: 0.25.0
+
+  tree-sitter-typescript@0.23.2(tree-sitter@0.25.0):
+    dependencies:
+      node-addon-api: 8.5.0
+      node-gyp-build: 4.8.4
+      tree-sitter-javascript: 0.23.1(tree-sitter@0.25.0)
+    optionalDependencies:
+      tree-sitter: 0.25.0
+
+  tree-sitter@0.25.0:
+    dependencies:
+      node-addon-api: 8.5.0
+      node-gyp-build: 4.8.4
+
+  undici-types@7.16.0: {}
+
+  uuid@13.0.0: {}
